@@ -33,6 +33,7 @@ namespace ng_vs2019githubdemo1
                 endpoints.MapGet("/", async context =>
                 {
                     await context.Response.WriteAsync("Hello World!");
+                    await context.Response.WriteAsync("Hello Hari");
                 });
             });
         }
